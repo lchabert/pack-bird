@@ -1,0 +1,5 @@
+{
+"name": "bird",
+"description": "Check bgp peers for bird. Use ssh to retrieve status of bgp sessions, number of imported route ...",
+"macros":{}
+}
