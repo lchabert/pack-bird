@@ -1,9 +1,0 @@
-define service{
-   service_description	Bird peer $KEY$
-   use              bird-service
-   register       0
-   host_name      bird-router
-   check_command  check_bird_status!$KEY$
-   notification_interval        0
-   duplicate_foreach    _transitaires
-}
